@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the model
-model = joblib.load('iris_production_model.pkl') 
+model = joblib.load('iris_production_model (1).pkl') 
 
 st.set_page_config(page_title="Iris Pipeline Dashboard", page_icon="🚀", layout="centered")
 st.title("🚀 Interactive Iris ML Pipeline")
